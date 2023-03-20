@@ -41,10 +41,27 @@ body {
 }
 
 #text_display {
+    width: 350px;
     font-size: 40px;
+    font-weight: 600;
     padding-right: 20px;
     padding-bottom: 30px;
+    padding-left: 20px;
+    overflow-x: scroll;
+
 }
+#answer_display{
+    width: 350px;
+    font-size: 40px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    overflow-x: scroll;
+    /* display: none; */
+    font-weight: 600;
+}
+#ans_display::-webkit-scrollbar { display: none;}
+#text_display::-webkit-scrollbar { display: none;}
 
 #button {
     background-color: rgb(249, 175, 135);
@@ -68,6 +85,7 @@ button {
     background-color: rgb(249, 175, 135);
     text-align: center;
     font-size: 30px;
+    font-weight: 600;
     box-shadow: inset 4px 4px 12px rgb(251, 157, 107),
         inset -4px -4px 12px rgb(244, 140, 83);
     color: white;
@@ -83,3 +101,4 @@ button:active {
         color: black;
     font-size: 25px;
 }
+
