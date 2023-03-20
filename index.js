@@ -89,12 +89,6 @@ zero.addEventListener("click", display => {
     string = string + "0"
     text_display.innerText = string;
 })
-one.addEventListener("click", display => {
-    num = num * 0;
-    answer_display.style.display = "none"
-    string = string + "8"
-    text_display.innerText = string;
-})
 clear.addEventListener("click", display => {
     string = ""
     num = num * 0;
