@@ -46,13 +46,9 @@ body {
     font-weight: 600;
     padding-right: 20px;
     padding-bottom: 30px;
-<<<<<<< HEAD
     padding-left: 20px;
     overflow-x: scroll;
 
-=======
-    overflow-y: scroll;
->>>>>>> 0ef80124b8f485e39f78d3e935b1b01c90d72c62
 }
 #answer_display{
     width: 350px;
@@ -105,7 +101,3 @@ button:active {
         color: black;
     font-size: 25px;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 0ef80124b8f485e39f78d3e935b1b01c90d72c62
